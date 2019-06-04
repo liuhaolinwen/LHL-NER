@@ -1,0 +1,22 @@
+NewsCrawler 为爬虫文件夹
+运行 python3 main.py
+Mydata为制作的数据集文件夹
+下面的三个文件夹里分别存有数据集和标注数据的py文件
+
+BERT_BC_NER文件夹为BERT+BiLSTM+CRF模型
+实验平台：Ubuntu18.0 +k80 GPU
+软件及环境要求：
+TensorFlow版本：1.12.0
+Python==3.6
+训练及测试方法：
+Ubuntu下：python3  bert_lstm_ner.py
+
+LatticeLSTM文件夹为Lattice-CRF模型方法:
+实验平台：Ubuntu18.0 +k80 GPU
+软件及环境要求：
+Pytorch 版本：1.0.0
+Python==3.6
+训练及测试方法：
+Ubuntu下：python3  main.py
+
+GitHub网址：https://github.com/liuhaolinwen/LHL-NER.git
